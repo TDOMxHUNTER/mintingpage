@@ -1,0 +1,16 @@
+{
+  "name": "Viking Legacy NFT",
+  "description": "A unique digital artifact from the age of Vikings, carrying the spirit of the North.",
+  "image": "https://sapphire-glamorous-elephant-22.mypinata.cloud/ipfs/bafybeieu54awfmizrlyxeq5wccbb3uxmblgdqhjjf2ksaua67j43e57kku",
+  "animation_url": "https://sapphire-glamorous-elephant-22.mypinata.cloud/ipfs/bafybeiepcxxhq475b6wg366gj34gawiw5vapek5lgcobtjjue2xzkrwz5y",
+  "attributes": [
+    {
+      "trait_type": "Era",
+      "value": "Viking Age"
+    },
+    {
+      "trait_type": "Power",
+      "value": "Runic Magic"
+    }
+  ]
+}

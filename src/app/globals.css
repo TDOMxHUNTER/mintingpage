@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-gray-100;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-[#111] border border-gray-800 rounded-2xl p-6;
+  }
+
+  .btn-primary {
+    @apply bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-all duration-300 disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply bg-black/50 text-white font-semibold px-6 py-3 rounded-xl 
+           border border-white/30 hover:bg-black/70 hover:border-white/50 
+           transition-all duration-300;
+    font-family: "Cinzel", serif !important;
+  }
+
+  .valhalla-steel-gradient {
+    background: radial-gradient(
+     ellipse at center,
+    #eeeeee 0%,     /* Bright silver highlight */
+    #bbbbbb 25%,    /* Light steel */
+    #6e6e6e 50%,    /* Medium steel */
+    #222222 80%,    /* Deep shadow */
+    #121212 100%    /* Nearly black bottom */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-3 bg-transparent border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/30 focus:outline-none transition-all duration-300;
+  }
+}
